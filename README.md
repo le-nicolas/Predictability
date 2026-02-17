@@ -3,6 +3,9 @@ Predictability demonstrates a core engineering idea: reliable models are useful 
 
 This project simulates noisy measurements of Newton's law (`F = m * a`) and estimates the unknown mass from data using least squares.
 
+## Sample Result
+![Sample output plot showing noisy observations, true force, and estimated force](assets/sample-output.png)
+
 ## What Improved in This Version
 - Refactored the script into reusable, testable functions.
 - Added CLI arguments to control simulation and estimator settings.
@@ -57,6 +60,8 @@ pytest -q
 ## Project Structure
 ```text
 .
+├── assets/
+│   └── sample-output.png
 ├── Main.py
 ├── README.md
 ├── requirements.txt
